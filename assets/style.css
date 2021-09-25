@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: aquamarine;
+    background-color: burlywood;
     color: beige;
 }
 
@@ -24,4 +24,8 @@ nav a {
     color: #b9c6ae;
     font-weight: bold;
     text-decoration: none;
+}
+
+.portfolio-title {
+    background-color: cadetblue;
 }
