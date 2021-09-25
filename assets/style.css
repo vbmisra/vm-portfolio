@@ -1,3 +1,8 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -17,15 +22,25 @@ nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
-    list-style: none;
+    list-style-type: none;
 }
 
 nav a {
     color: #b9c6ae;
     font-weight: bold;
     text-decoration: none;
+    font-size: 15px;
+    text-decoration: underline;
 }
 
 .portfolio-title {
     background-color: cadetblue;
+}
+
+aside {
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    color: blue;
 }
