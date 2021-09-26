@@ -1,10 +1,11 @@
 # vm-portfolio
+* As a developer, I created a website that will serve as a portfolio to highlight my skills and featured projects. The website is currently a work in progress, but the basic skeleton is laid out.
 
-Need:
-- main background image
-- background images for each project section
-- larger main project to highlight
-- remaining projects are all uniform boxes
-- boxed titles for each project with caption underneath
-- side panel for the section titles with a left margin
-- underlined header titles
+## About the Project
+This project lays the foundation for my portfolio that will be featured to recruiters and hiring managers within the tech industry. Once complete, it will highlight the major projects I have worked on. It will also provide relevant information such as my contact info, resume and background information about me.
+
+## Getting Started
+
+Enter the following link in your browser to access this project:
+
+

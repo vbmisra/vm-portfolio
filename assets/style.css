@@ -1,6 +1,9 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 body {
@@ -17,6 +20,11 @@ header {
     background-color: darkslategrey;
     color: beige;
     text-decoration: underline;
+}
+
+.headerLinks {
+    background-color: darkslategrey;
+    justify-content: space-between;
 }
 
 .portfolioTitle {
@@ -38,18 +46,99 @@ nav ul {
     list-style-type: none;
 }
 
-#headerOption {
+.headerOption {
     color: #b9c6ae;
     font-weight: bold;
     text-decoration: none;
     font-size: 15px;
     text-decoration: underline;
+    background-color: darkslategrey;
+}
+
+#headLink {
+    background-color: darkslategrey;
+    color: beige;
+    font-size: 20px;
 }
 
 aside {
+    position: relative;
     clear: both;
     float: left;
     width: 20%;
     height: 100%;
     color: blue;
+    border-right: 5px;
+    border-color: blue;
 }
+
+aside h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.mainProject {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+    text-align: center;
+}
+
+.mainProject img {
+    width: 100%;
+}
+
+.project {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+}
+
+.project h4 {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.project img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+      width: 75%;
+    }
+  
+    main {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    header {
+      width: 50%;
+    }
+  
+    main {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
