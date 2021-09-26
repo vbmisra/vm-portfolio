@@ -6,7 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
-    line-height: 1.3;
+    line-height: 1.0;
 }
 
 header {
@@ -14,8 +14,21 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: burlywood;
+    background-color: darkslategrey;
     color: beige;
+    text-decoration: underline;
+}
+
+.portfolioTitle {
+    background-color: darkslategrey;
+    color: beige;
+}
+
+figure {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
 }
 
 nav ul {
@@ -25,16 +38,12 @@ nav ul {
     list-style-type: none;
 }
 
-nav a {
+#headerOption {
     color: #b9c6ae;
     font-weight: bold;
     text-decoration: none;
     font-size: 15px;
     text-decoration: underline;
-}
-
-.portfolio-title {
-    background-color: cadetblue;
 }
 
 aside {
